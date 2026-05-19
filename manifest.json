@@ -1,0 +1,22 @@
+{
+    "Group":  "GilloDaby",
+    "Name":  "BetterShopAuctionMythologyUI",
+    "Version":  "3.1.1",
+    "Description":  "Greek-mythology UI override pack for BetterShopAuction. Adds custom marble / gold / laurel-green / olympian-blue textures (containers, buttons, separators) and the .ui files referencing them. When installed alongside the main BetterShopAuction plugin, this pack overrides the vanilla game-asset look with a temple-of-Olympus theme — cracked white marble, gilded trims, laurel-leaf accents, and warm temple-torch glows. Remove this plugin to fall back to vanilla styling. Conflicts with other UI theme packs (Modern, Medieval, ForestWood, Dungeon) — install only one theme at a time.",
+    "Authors":  [
+                    {
+                        "Name":  "GilloDaby"
+                    }
+                ],
+    "Website":  "",
+    "ServerVersion":  ">=0.5.0 <0.6.0",
+    "Dependencies":  {
+                         "GilloDaby:BetterShopAuction":  "*"
+                     },
+    "OptionalDependencies":  {
+
+                             },
+    "DisabledByDefault":  false,
+    "Main":  "com.gillodaby.bettershopauction.mythologyui.BetterShopAuctionMythologyUIPlugin",
+    "IncludesAssetPack":  true
+}
