@@ -385,6 +385,11 @@ $C.@PageOverlay {
               ItemIcon #StatsShopTopIcon {
                 Anchor: (Width: 28, Height: 28);
               }
+
+              AssetImage #StatsShopTopIconAsset {
+                Visible: false;
+                Anchor: (Width: 28, Height: 28);
+              }
             }
 
             Group {
@@ -483,6 +488,11 @@ $C.@PageOverlay {
               ItemIcon #StatsAuctionTopIcon {
                 Anchor: (Width: 28, Height: 28);
               }
+
+              AssetImage #StatsAuctionTopIconAsset {
+                Visible: false;
+                Anchor: (Width: 28, Height: 28);
+              }
             }
 
             Group {
@@ -579,6 +589,11 @@ $C.@PageOverlay {
               Background: (TexturePath: "../../Textures/MythologyShop/Patches/ContainerPanelLightPatch.png", Border: 6);
 
               ItemIcon #StatsOfferTopIcon {
+                Anchor: (Width: 28, Height: 28);
+              }
+
+              AssetImage #StatsOfferTopIconAsset {
+                Visible: false;
                 Anchor: (Width: 28, Height: 28);
               }
             }

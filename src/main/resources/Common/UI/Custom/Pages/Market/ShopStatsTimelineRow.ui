@@ -14,6 +14,11 @@ Group {
     ItemIcon #TimelineIcon {
       Anchor: (Width: 24, Height: 24);
     }
+
+    AssetImage #TimelineIconAsset {
+      Visible: false;
+      Anchor: (Width: 24, Height: 24);
+    }
   }
 
   Group {
