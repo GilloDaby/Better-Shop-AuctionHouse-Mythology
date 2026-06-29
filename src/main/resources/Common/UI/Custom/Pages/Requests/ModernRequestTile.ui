@@ -30,6 +30,13 @@ Group {
         ItemIcon #ModernRequestIcon {
           Anchor: (Width: 56, Height: 56);
         }
+
+        ItemGrid #ModernRequestGrid {
+          Anchor: (Width: 76, Height: 76);
+          Visible: false;
+          SlotsPerRow: 1;
+          Style: (SlotSize: 76, SlotIconSize: 58, SlotSpacing: 0, SlotBackground: "Textures/ModernShop/Rarities/SlotCommon.png");
+        }
       }
 
       Label #ModernRequestQtyBadge {

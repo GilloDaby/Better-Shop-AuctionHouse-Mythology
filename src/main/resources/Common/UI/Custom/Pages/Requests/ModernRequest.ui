@@ -1152,7 +1152,7 @@ $C.@PageOverlay {
       Padding: (Left: 14, Right: 14, Top: 8, Bottom: 14);
 
       Group #OfferClaimsList {
-        LayoutMode: Top;
+        LayoutMode: LeftCenterWrap;
       }
 
       Label #OfferClaimsEmpty {
@@ -1160,6 +1160,24 @@ $C.@PageOverlay {
         Style: (FontSize: 13, TextColor: #4a4640, HorizontalAlignment: Center, VerticalAlignment: Center, Wrap: true);
         Text: "No pending claims. Fulfill someone's offer to receive items here.";
         Anchor: (Height: 60);
+      }
+    }
+
+    Group #OfferClaimsFooter {
+      Anchor: (Height: 64, Top: 4);
+      LayoutMode: Left;
+      Padding: (Left: 14, Right: 14, Top: 8, Bottom: 8);
+      Background: (TexturePath: "../../Common/ContainerFullPatch.png", Border: 14);
+
+      Label #OfferClaimsFooterHint {
+        Style: (FontSize: 12, TextColor: #94a3b8, RenderBold: true, RenderUppercase: true, LetterSpacing: 1, VerticalAlignment: Center);
+        Text: "Set an amount on a stack then TAKE, or grab everything at once";
+        FlexWeight: 1;
+      }
+
+      $C.@SmallBuyTextButton #OfferClaimsTakeAllButton {
+        @Anchor = (Width: 220);
+        @Text = "TAKE ALL";
       }
     }
   }

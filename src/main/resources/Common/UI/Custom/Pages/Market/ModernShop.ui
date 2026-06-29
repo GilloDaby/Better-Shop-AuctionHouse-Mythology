@@ -538,6 +538,18 @@ $C.@PageOverlay {
               @Anchor = (Horizontal: 0);
               @Text = "SELL ALL";
             }
+
+            $C.@SmallSecondaryTextButton #DetailsFavoriteAddButton {
+              @Anchor = (Horizontal: 0, Top: 8);
+              @Text = "+ ADD TO FAVORITE";
+              Visible: false;
+            }
+
+            $C.@SmallCancelTextButton #DetailsFavoriteRemoveButton {
+              @Anchor = (Horizontal: 0, Top: 8);
+              @Text = "REMOVE FROM FAVORITE";
+              Visible: false;
+            }
           }
         }
       }

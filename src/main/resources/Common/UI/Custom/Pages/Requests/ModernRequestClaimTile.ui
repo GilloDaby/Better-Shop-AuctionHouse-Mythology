@@ -1,0 +1,68 @@
+$C = "../BetterShopCommon.ui";
+
+Group {
+  Anchor: (Width: 188, Height: 236, Right: 6, Bottom: 6);
+  LayoutMode: Top;
+  Padding: (Left: 8, Right: 8, Top: 8, Bottom: 8);
+  Background: (TexturePath: "../../Common/ContainerPanelPatch.png", Border: 8);
+
+  Group #ClaimTileIconWrap {
+    Anchor: (Horizontal: 0, Height: 96, Bottom: 6);
+    Background: (TexturePath: "Textures/ModernShop/Rarities/SlotCommon.png", Border: 12);
+
+    Group #ClaimTileIconCenter {
+      Anchor: (Full: 0);
+      LayoutMode: CenterMiddle;
+
+      AssetImage #ClaimTileIconAsset {
+        Anchor: (Width: 64, Height: 64);
+        Visible: false;
+      }
+
+      ItemIcon #ClaimTileIcon {
+        Anchor: (Width: 64, Height: 64);
+      }
+
+      ItemGrid #ClaimTileGrid {
+        Anchor: (Width: 88, Height: 88);
+        Visible: false;
+        SlotsPerRow: 1;
+        Style: (SlotSize: 88, SlotIconSize: 64, SlotSpacing: 0, SlotBackground: "Textures/ModernShop/Rarities/SlotCommon.png");
+      }
+    }
+
+    Label #ClaimTileQtyBadge {
+      Anchor: (Width: 42, Height: 18, Right: 4, Bottom: 4);
+      Style: (FontSize: 11, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+      Background: (Color: #16a34a);
+      Text: "x1";
+    }
+  }
+
+  Label #ClaimTileName {
+    Anchor: (Horizontal: 0, Height: 20, Bottom: 2);
+    Style: (FontSize: 12, TextColor: #f1f5f9, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, Wrap: true, ShrinkTextToFit: true, MinShrinkTextToFitFontSize: 9);
+    Text: "Item";
+  }
+
+  Label #ClaimTileAge {
+    Anchor: (Horizontal: 0, Height: 14, Bottom: 6);
+    Style: (FontSize: 9, TextColor: #facc15, RenderBold: true, RenderUppercase: true, LetterSpacing: 1, HorizontalAlignment: Center, VerticalAlignment: Center);
+    Text: "JUST NOW";
+  }
+
+  Group #ClaimTileAmountRow {
+    Anchor: (Horizontal: 0, Height: 36, Bottom: 6);
+    LayoutMode: CenterMiddle;
+
+    $C.@NumberField #ClaimTileAmountInput {
+      @Anchor = (Width: 150, Height: 36);
+      Value: 1;
+    }
+  }
+
+  $C.@SmallBuyTextButton #ClaimTileTakeButton {
+    @Anchor = (Horizontal: 0, Height: 34);
+    @Text = "TAKE";
+  }
+}

@@ -30,6 +30,13 @@ Group {
         ItemIcon #ModernAuctionIcon {
           Anchor: (Width: 32, Height: 32);
         }
+
+        ItemGrid #ModernAuctionGrid {
+          Anchor: (Width: 44, Height: 44);
+          Visible: false;
+          SlotsPerRow: 1;
+          Style: (SlotSize: 44, SlotIconSize: 32, SlotSpacing: 0, SlotBackground: "Textures/ModernShop/Rarities/SlotCommon.png");
+        }
       }
 
       Label #ModernAuctionQtyBadge {
