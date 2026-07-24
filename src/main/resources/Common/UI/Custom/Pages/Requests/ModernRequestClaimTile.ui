@@ -8,7 +8,7 @@ Group {
 
   Group #ClaimTileIconWrap {
     Anchor: (Horizontal: 0, Height: 96, Bottom: 6);
-    Background: (TexturePath: "Textures/ModernShop/Rarities/SlotCommon.png", Border: 12);
+    Background: (TexturePath: "../../Textures/MythologyShop/Rarities/SlotCommon.png", Border: 12);
 
     Group #ClaimTileIconCenter {
       Anchor: (Full: 0);
@@ -27,7 +27,7 @@ Group {
         Anchor: (Width: 88, Height: 88);
         Visible: false;
         SlotsPerRow: 1;
-        Style: (SlotSize: 88, SlotIconSize: 64, SlotSpacing: 0, SlotBackground: "Textures/ModernShop/Rarities/SlotCommon.png");
+        Style: (SlotSize: 88, SlotIconSize: 64, SlotSpacing: 0, SlotBackground: "../../Textures/MythologyShop/Rarities/SlotCommon.png");
       }
     }
 

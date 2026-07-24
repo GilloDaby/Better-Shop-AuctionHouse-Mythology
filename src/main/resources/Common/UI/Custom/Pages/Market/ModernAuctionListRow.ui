@@ -16,7 +16,7 @@ Group {
 
     Group #ModernAuctionIconWrap {
       Anchor: (Width: 44, Height: 44, Right: 10);
-      Background: (TexturePath: "Textures/ModernShop/Rarities/SlotCommon.png", Border: 12);
+      Background: (TexturePath: "../../Textures/MythologyShop/Rarities/SlotCommon.png", Border: 12);
 
       Group #ModernAuctionIconCenter {
         Anchor: (Full: 0);
@@ -35,7 +35,7 @@ Group {
           Anchor: (Width: 44, Height: 44);
           Visible: false;
           SlotsPerRow: 1;
-          Style: (SlotSize: 44, SlotIconSize: 32, SlotSpacing: 0, SlotBackground: "Textures/ModernShop/Rarities/SlotCommon.png");
+          Style: (SlotSize: 44, SlotIconSize: 32, SlotSpacing: 0, SlotBackground: "../../Textures/MythologyShop/Rarities/SlotCommon.png");
         }
       }
 
