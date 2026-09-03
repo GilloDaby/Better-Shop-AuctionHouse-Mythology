@@ -115,37 +115,37 @@ $C.@PageOverlay {
           LayoutMode: Left;
           Padding: (Left: 12, Right: 12);
 
-          Label {
+          Label #QueueHeaderPlayer {
             Style: (FontSize: 10, TextColor: #807868, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center);
             Text: "PLAYER";
             Anchor: (Width: 130);
           }
 
-          Label {
+          Label #QueueHeaderType {
             Style: (FontSize: 10, TextColor: #807868, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center);
             Text: "TYPE";
             Anchor: (Width: 110);
           }
 
-          Label {
+          Label #QueueHeaderCategory {
             Style: (FontSize: 10, TextColor: #807868, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center);
             Text: "CATEGORY";
             FlexWeight: 1;
           }
 
-          Label {
+          Label #QueueHeaderBonus {
             Style: (FontSize: 10, TextColor: #807868, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center, HorizontalAlignment: End);
             Text: "BONUS";
             Anchor: (Width: 80);
           }
 
-          Label {
+          Label #QueueHeaderRemaining {
             Style: (FontSize: 10, TextColor: #807868, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center, HorizontalAlignment: End);
             Text: "REMAINING";
             Anchor: (Width: 110);
           }
 
-          Label {
+          Label #QueueHeaderStatus {
             Style: (FontSize: 10, TextColor: #807868, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center, HorizontalAlignment: Center);
             Text: "STATUS";
             Anchor: (Width: 90);

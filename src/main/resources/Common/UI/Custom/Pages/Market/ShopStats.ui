@@ -937,7 +937,7 @@ $C.@PageOverlay {
           Padding: (Left: 12, Right: 12, Top: 4, Bottom: 4);
           Background: (TexturePath: "../../Textures/MythologyShop/Patches/ContainerFullPatch.png", Border: 14);
 
-          Label {
+          Label #StatsPlayersSearchLabel {
             Style: (FontSize: 11, TextColor: #c08030, RenderBold: true, RenderUppercase: true, LetterSpacing: 2, VerticalAlignment: Center);
             Text: "SEARCH";
             Anchor: (Width: 80, Height: 28);
